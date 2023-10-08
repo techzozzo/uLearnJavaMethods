@@ -1,7 +1,7 @@
 public class primeForChallenge {
     public static void main(String[] args){
+        int primeCounter = 0;
         for(int n = 1; n<=1000; n++){
-            int primeCounter = 0;
             if (isPrime(n)){
                 System.out.println(n + "is a prime number");
                 primeCounter++;
